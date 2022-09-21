@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+
+    
+    
+
+
+
+
+/* ---- logo ---- */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    line-height: 80px;
+
+}
+.logo img{
+    display: flex;
+    height: 210px;
+    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* --- barra de navegacion --- */
+
+
+
+
+
+
+/* --- main --- */
+
+main{
+    background-color: #0D0D0D;
+    color: #C1272D;
+    padding: 20px;
+}
+/* --- Hero --- */
+.hero-merch{
+    height: 40vh;   
+    background-image: url(../assets/img/moto-chica.jpg);
+    background-position: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+.hero-merch__texto{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #c1272c5f;
+    border-radius: 20px;
+}
+.hero-contacto{
+    height: 40vh;
+    background-image: url(../assets/img/moto-chica-chico.jpeg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+
+}
+.hero-contacto__texto{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 2rem;
+    background-color:#c1272c5f;
+}
+.hero-index{
+    height: 40vh;
+    background-image: url(../assets/img/pandilla.png);
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.hero-index__texto{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 2rem;
+    background-color:#c1272c5f;
+}
+.hero-video{
+    height: 40vh;
+    background-image: url(../assets/img/moto-camino.jpg);
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.hero-video__texto{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 2rem;
+    background-color:#c1272c5f;
+}
+.hero-fotos{
+    height: 40vh;
+    background-image: url(../assets/img/banda.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+.hero-fotos__texto{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 2rem;
+    background-color:#c1272c5f;
+}
+/* --- Fotos --- */
+.fotos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px
+
+
+}
+.foto-contenedor{
+    width: 100%;
+
+}
+.foto-img{
+    width: 100%;
+}
+
+.foto-titulo{
+    background-color: #591d1d46;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* --- merch --- */
+.merch{
+    display: flex;
+    flex-direction: column;
+
+}
+.merch__titulo{ 
+    padding: 20px;
+    text-align: justify;
+}
+
+
+/* --- Buzos--- */
+.merch__buzos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.merch__titulo-buzos{
+    background-color: #591D1D;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+}
+.merch__tarjeta-buzos{
+    width: 400px;
+    height: 450px;
+    border: 1px solid #f5f5f500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.merch__img-buzos{
+    width: 100%;
+}
+.merch__tarjeta-buzos-comprar{
+    background-color: #C1272D;
+    color: #F5F5F5;
+    padding: 15px 20px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 500ms;
+
+}
+.merch__tarjeta-buzos-comprar:hover{
+    border: #C1272D 2px solid;
+    background-color: #F5F5F5;
+    color: #C1272D;
+}
+
+.slider-buzos{
+    display: flex;
+    overflow-x: auto;
+    
+}
+
+/* --- Gorras --- */
+.merch__gorras{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.merch__titulo-gorras{
+    background-color: #591D1D;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+}
+.merch__tarjeta-gorras{
+    width: 400px;
+    height: 450px;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.merch__img-gorras{
+    width: 100%;
+}
+.merch__tarjeta-gorras-comprar{
+    background-color: #C1272D;
+    color: #F5F5F5;
+    padding: 15px 20px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 500ms;
+
+}
+.merch__tarjeta-gorras-comprar:hover{
+    border: #C1272D 2px solid;
+    background-color: #F5F5F5;
+    color: #C1272D;
+}
+
+.slider-gorras{
+    display: flex;
+    overflow-x: auto;
+    
+}
+/* --- Remeras --- */
+.merch__remeras{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.merch__titulo-remeras{
+    background-color: #591D1D;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+}
+.merch__tarjeta-remeras{
+    width: 400px;
+    height: 450px;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+.merch__img-remeras{
+    width: 100%;
+}
+.merch__tarjeta-remeras-comprar{
+    background-color: #C1272D;
+    color: #F5F5F5;
+    padding: 15px 20px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 500ms;
+
+}
+.merch__tarjeta-remeras-comprar:hover{
+    border: #C1272D 2px solid;
+    background-color: #F5F5F5;
+    color: #C1272D;
+}
+
+.slider-remeras{
+    display: flex;
+    overflow-x: auto;
+    
+}
+/* --- contacto --- */
+.contacto{
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+    
+    
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 200px 200px;
+    height: 100%;
+    width: 100%;
+}
+.formulario-caja{
+    justify-content: space-around;
+    width: 300px;
+    
+}
+.caja-nombre{
+    width: 100%;
+    padding: 7px;
+}
+.mapa{
+    width: 100vh;
+}
+
+
+
+
+/* --- footer --- */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100;
+    background-color: #591D1D;
+    color: #F5F5F5;
+    padding: 20px;
+    
+    
+}
+.contenedor__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.link-footer{
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
